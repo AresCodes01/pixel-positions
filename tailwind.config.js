@@ -11,11 +11,11 @@ export default {
                 "black": '#060606', // jetzt korrekt
             },
             fontFamily: {
-                "hanken-grotesk": ['Hanken Grotesk', '' ,'yellow'],
+                "hanken-grotesk": ['Hanken Grotesk', '', 'yellow'],
                 'comic': ['"Comic Neue"', 'cursive']
             },
-            fontSize:{
-              "2xs": ".625rem",
+            fontSize: {
+                "2xs": ".625rem",
             }
         },
     },
