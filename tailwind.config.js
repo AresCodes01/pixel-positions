@@ -8,7 +8,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                black: 'rgb(0, 200, 200)', // jetzt korrekt
+                "black": '#060606', // jetzt korrekt
             },
         },
     },
