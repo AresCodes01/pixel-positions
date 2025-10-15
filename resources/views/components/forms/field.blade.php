@@ -2,12 +2,12 @@
 
 <div>
     @if ($label)
-        <x-forms.label :$name :$label />
+        <x-forms.label :$name :$label/>
     @endif
 
     <div class="mt-1">
         {{ $slot }}
 
-        <x-forms.error :error="$errors->first($name)" />
+        <x-forms.error :error="$errors->first($name)"/>
     </div>
 </div>

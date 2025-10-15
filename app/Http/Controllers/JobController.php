@@ -18,7 +18,7 @@ class JobController extends Controller
         return view('jobs.index', [
             'featuredJobs' => $jobs[0],
             'jobs' => $jobs[1],
-            'tags' =>Tag::all(),
+            'tags' => Tag::all(),
         ]);
     }
 
